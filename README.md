@@ -116,6 +116,12 @@ The result: Less time studying, better retention.
 4. **Something broken?**: See [Troubleshooting](docs/TROUBLESHOOTING.md)
 5. **Want to contribute?**: See [Developer Guide](docs/DEVELOPER_GUIDE.md)
 
+## See It In Action
+
+Watch the PACER system in use with a real learning session:
+
+- **[Learning Differential Geometry with PACER](https://gisthost.github.io/?5346e82b2f64d3311eb50c36c58b8e12/page-001.html)** - A complete Claude Code transcript demonstrating the methodology applied to advanced mathematics
+
 ## Credits
 
 Based on the learning methodology of **Dr. Justin Sung**:
@@ -126,7 +132,7 @@ Based on the learning methodology of **Dr. Justin Sung**:
 
 ## License
 
-This project is for educational purposes.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 

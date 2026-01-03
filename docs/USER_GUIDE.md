@@ -866,9 +866,10 @@ Proper encoding reduces the need for constant review.
 Now that you understand the basics:
 
 1. **Try the Quick Start Guide** (`docs/QUICK_START.md`) - 10 hands-on tutorials
-2. **Practice with real content** - Apply PACER to something you're learning
-3. **Check your balance regularly** - Don't just consume, digest!
-4. **Challenge your R-types** - Most can be understood instead
+2. **See a real example** - [Learning Differential Geometry with PACER](https://gisthost.github.io/?5346e82b2f64d3311eb50c36c58b8e12/page-001.html) - A complete Claude Code transcript
+3. **Practice with real content** - Apply PACER to something you're learning
+4. **Check your balance regularly** - Don't just consume, digest!
+5. **Challenge your R-types** - Most can be understood instead
 
 Remember:
 
