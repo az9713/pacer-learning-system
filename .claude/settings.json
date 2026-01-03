@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Read|WebFetch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo [$(date +%Y-%m-%dT%H:%M:%S)] CONSUMPTION: $TOOL_NAME >> \"$CLAUDE_PROJECT_DIR/.claude/learning-balance.log\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Before ending this session, perform a learning balance check: Review the session to assess consumption (reading files, web fetches) versus digestion activities (creating maps, practice exercises, classifications). If significant content was consumed without corresponding encoding/digestion activities, remind the user: 'You consumed content this session. Consider using /balance-check to assess your consumption:digestion ratio, or use /grinde, /digest, or /pacer commands to encode what you've learned before it fades.'"
+          }
+        ]
+      }
+    ]
+  }
+}
